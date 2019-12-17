@@ -15,13 +15,13 @@ The API below  is used in this tracking  algorithm,   you should know, because t
 ```
 CV_WRAP bool updateKCF( const Mat& image, Rect2d& boundingBox ,double& maxVal);
 ```
-Modified [opencv_contrib](https://pan.baidu.com/s/1c_ngZQ6gMB1VURW0SE13rQ) is here
+Modified [opencv_contrib](https://pan.baidu.com/s/1c_ngZQ6gMB1VURW0SE13rQ)[vitx]  is here
 
 
 ## Training
 Train  yolov3 in  [Darknet](https://pjreddie.com/darknet/yolo/) 
 
-you can download this [weight](https://pan.baidu.com/s/1c_ngZQ6gMB1VURW0SE13rQ) for test.
+you can download this [weight](https://pan.baidu.com/s/1c_ngZQ6gMB1VURW0SE13rQ)[vitx] for test.
 
 ## Run tracker
 modify **labels_name** in main.cpp
