@@ -15,14 +15,18 @@ The API below  is used in this tracking  algorithm,   you should know, because t
 ```
 CV_WRAP bool updateKCF( const Mat& image, Rect2d& boundingBox ,double& maxVal);
 ```
-Modified opencv_contrib is release 
+Modified [opencv_contrib](https://pan.baidu.com/s/1c_ngZQ6gMB1VURW0SE13rQ) is here
 
 
 ## Training
 Train  yolov3 in  [Darknet](https://pjreddie.com/darknet/yolo/) 
+
+you can download this [weight](https://pan.baidu.com/s/1c_ngZQ6gMB1VURW0SE13rQ) for test.
 
 ## Run tracker
 modify **labels_name** in main.cpp
 
 ```
 ./yolo-tracker   <your_own_cfg>  <your_own_weights>  <path_to_video>
+```
+
